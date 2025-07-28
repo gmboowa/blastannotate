@@ -1,6 +1,6 @@
 # blastannotate
 
-`blastannotate` is a high-performance C++ tool for performing BLASTn alignments, extracting top hits & annotating results with species information via NCBI Entrez Direct utilities. Designed for microbial genomics & comparative genomics pipelines, it facilitates reproducible & automated species annotation workflows.
+`blastannotate` is a bash tool for performing BLASTn alignments, extracting top hits & annotating results with species information via NCBI Entrez Direct utilities. Designed for microbial genomics & comparative genomics pipelines, it facilitates reproducible & automated species annotation workflows.
 
 ## Features
 - Runs `blastn` using a local nucleotide database
@@ -11,7 +11,7 @@
 
 
 ## Requirements
-- C++17 Compiler (`g++`/`clang++`) 
+
 - [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
 - [NCBI Entrez Direct (EDirect)](https://www.ncbi.nlm.nih.gov/books/NBK179288/)
 
