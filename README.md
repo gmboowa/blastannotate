@@ -27,7 +27,6 @@
 
 ```bash
 
-```bash
 
 git clone https://github.com/gmboowa/blastannotate.git
 
