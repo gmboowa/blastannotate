@@ -28,31 +28,26 @@
 ```bash
 
 ```bash
+
 git clone https://github.com/gmboowa/blastannotate.git
 
-## C++ installation
-cd blastannotate/bin
-make
-g++ -std=c++17 -O3 -lpthread -o blastannotate blastannotate.cpp
-sudo mv blastannotate /usr/local/bin/  # Optional: Install globally
+cd blastannotate
+
+chmod 777 blastannotate.sh
 
 ```
 ### 2. Verify installation
 
 ```bash
 
-blastannotate --help
+
+./blastannotate.sh --help
 
 ```
 ## Usage 
 
 ```bash
 
-blastannotate --ref_db your_db.fasta --output_dir output -fasta_1 query1.fa -fasta_2 query2.fa
-
-Or bash usage
-
-chmod 777 blastannotate
 
 ./blastannotate.sh --ref_db your_db.fasta --output_dir output -fasta_1 query1.fa -fasta_2 query2.fa
 
