@@ -17,8 +17,6 @@
 
 ## Installation
 
-# blastannotate  
-
 **Annotate BLAST results with species information & generate reports.**  
 
 ---
